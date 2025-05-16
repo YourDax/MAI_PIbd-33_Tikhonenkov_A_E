@@ -9,7 +9,7 @@ package-mode = false
 [tool.poetry.dependencies]
 python = ">=3.12,<3.13"
 jupyter = "^1.1.1"
-numpy = "^2.1.0"
+numpy = "^1.26.4"
 pandas = "^2.2.2"
 matplotlib = "^3.9.2"
 flask = "^3.0.3"
@@ -22,7 +22,7 @@ featuretools = "^1.31.0"
 gymnasium = "^1.0.0"
 scikit-fuzzy = "^0.5.0"
 networkx = "^3.4.2"
-spacy = "^3.8.5"
+spacy = "^3.7.5"
 docx = "^0.2.4"
 emoji = "^2.14.1"
 num2words = "^0.5.14"
@@ -31,6 +31,7 @@ python-docx = "^1.1.2"
 opencv-python = "^4.11.0.86"
 mahotas = "^1.4.18"
 albumentations = "^2.0.5"
+ru_core_news_lg = {url = "https://github.com/explosion/spacy-models/releases/download/ru_core_news_lg-3.7.0/ru_core_news_lg-3.7.0-py3-none-any.whl"}
 
 
 [tool.poetry.group.dev.dependencies]
